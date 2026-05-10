@@ -12,6 +12,7 @@
     "@clerk/clerk-react": "^5.61.3",
     "@clerk/nextjs": "^6.39.3",
     "@hookform/resolvers": "^5.2.2",
+    "@supabase/supabase-js": "^2.105.4",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^1.14.0",
@@ -35,5 +36,8 @@
     "eslint-config-next": "16.2.4",
     "tailwindcss": "^4",
     "typescript": "^5"
+  },
+  "overrides": {
+    "swr": "^2.3.3"
   }
 }
