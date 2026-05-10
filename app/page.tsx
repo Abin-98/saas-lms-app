@@ -2,7 +2,6 @@ import CompanionCard from '@/components/CompanionCard'
 import CompanionsList from '@/components/CompanionsList'
 import Cta from '@/components/CTA'  
 import { recentSessions } from '@/constants'
-import React from 'react'
 
 const Page = () => {
   return (
@@ -16,7 +15,7 @@ const Page = () => {
             topic="Neural Network of the Brain"
             subject="science"
             duration={45}
-            color="#ffda6e"
+            color="#E5D0FF"
           />
           <CompanionCard
             id="124"
@@ -24,7 +23,7 @@ const Page = () => {
             topic="Derivatives & Integrals"
             subject="maths"
             duration={30}
-            color="#e5d0ff"
+            color="#FFDA6E"
           />
           <CompanionCard
             id="125"
@@ -32,7 +31,7 @@ const Page = () => {
             topic="language"
             subject="English Literature"
             duration={30}
-            color="#dd07ff"
+            color="#BDE7FF"
           />
         </section>
 
